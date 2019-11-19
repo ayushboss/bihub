@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+}
+
+.title {
+	text-align: center;
+	color: white;
+}
+
+.title_city {
+	color: white;
+	text-decoration: underline;
+}
+
+#city_block {
+	outline-color: white;
+}
+
+.sarajevo {
+	float: left;
+	width: 50%;
+}
+
+.bl {
+	float: right;
+	width: 50%;
+}
+
+.resource_list {
+	list-style-type: none;
+	font-size: 20px;
+	font-style: underline;
+}
+
+.resource_list li a {
+	padding-top: 200px;
+}
+
+.sarajevo .resource_list li a {
+	color: blue;
+}
+
+.bl .resource_list li a {
+	color: yellow;
+}
